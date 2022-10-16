@@ -1,0 +1,16 @@
+[package]
+name = "aws-lambda-rust"
+version = "0.1.0"
+authors = ["Refacktor <refacktor@users.github.com>"]
+edition = "2018"
+autobins = false
+
+[[bin]]
+name = "bootstrap"
+path = "src/main.rs"
+
+[dependencies]
+lambda_runtime = "0.1"
+serde = "1.0.80"
+serde_derive = "1.0.80"
+serde_json = "1.0.33"
